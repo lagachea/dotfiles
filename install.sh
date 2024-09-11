@@ -7,6 +7,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 git clone https://github.com/Aloxaf/fzf-tab ~/.fzf-tab
 
+#FD
+brew install fd
+
 #BAT
 brew install bat
 
@@ -17,6 +20,7 @@ brew install ripgrep
 # setup links
 USERPATH="/home/yassine/dotfiles"
 
+mkdir -p ~/.config
 #bat
 ln -s -t ~/.config /home/yassine/dotfiles/bat 
 #fd
