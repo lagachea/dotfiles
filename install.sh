@@ -21,8 +21,6 @@ brew install ripgrep
 USERPATH="/home/yassine/dotfiles"
 
 mkdir -p ~/.config
-#bat
-ln -s -t ~/.config /home/yassine/dotfiles/bat 
 #fd
 ln -s -t ~/.config /home/yassine/dotfiles/fd
 #zshrc
