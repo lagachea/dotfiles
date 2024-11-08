@@ -17,13 +17,11 @@ brew install bat
 brew install ripgrep
 
 
-# setup links
-USERPATH="/home/yassine/dotfiles"
-
 mkdir -p ~/.config
+mkdir -p ~/.zsh
 #fd
-ln -s -t ~/.config /home/yassine/dotfiles/fd
+cp -r fd ~
 #zshrc
-ln -s -t ~/ /home/yassine/dotfiles/zsh/.zshrc
+cp zsh/.zshrc ~
 #zsh
-ln -s -t ~/.zsh /home/yassine/dotfiles/zsh/.zsh
+cp -r zsh/.zsh ~
